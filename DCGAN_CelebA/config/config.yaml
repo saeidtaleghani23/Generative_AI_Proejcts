@@ -1,0 +1,22 @@
+# Model configuration
+model:
+  input_shape: [64, 64, 3]
+  initial_feature_map: 64
+  num_block: 4
+  
+
+# Training configuration
+training:
+  num_generated_img: 5
+  batch_size: 32
+  epochs: 200
+  ds_optimizer: 'adam'
+  gen_optimizer: 'adam'
+  learning_rate: 0.0002
+  loss_fn: 'binary_crossentropy'
+  
+
+# Save configuration
+save:
+  model_path: './saved_models'
+  generated_image_path: './results'
