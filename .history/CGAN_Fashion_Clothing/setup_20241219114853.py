@@ -13,5 +13,5 @@ setup(
     description='Implementing Conditional GAN (CGAN) using Fashion Clothing Dataset',
     author='Saeid Taleghani',  
     author_email='stalegha@uwaterloo.ca', 
-    url='https://github.com/saeidtaleghani23/CGAN_Fashion_Clothing',  
+    url='https://github.com/saeidtaleghani23/CGAN_Fashion_Clothing_Data',  
 )
